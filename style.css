@@ -19,6 +19,7 @@ a {
 }
 
 body {
+  overflow-x: hidden;
   background-color: lightblue;
 }
 
@@ -171,7 +172,13 @@ header .menu .faster .easy {
   left: 71px;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 section {
+  overflow-y: scroll !important;
+  overflow-x: hidden !important;
   padding: 20px 30px;
   border: none;
   border-radius: 20px;
@@ -213,9 +220,11 @@ section .container .shop_shadow {
   border-radius: 50%;
   background-color: rgb(255, 84, 84);
 }
+section main {
+  margin-bottom: 20px;
+}
 section main .container {
   margin-top: 35px;
-  border: 1px solid black;
 }
 section main .container .content {
   text-align: center;
@@ -247,6 +256,7 @@ section main .container .content_last {
   padding-right: 70px;
   background-color: rgb(171, 151, 243);
   color: rgb(255, 255, 255);
+  margin-left: 45px;
 }
 section main .container .content_last h2 {
   font-size: 20px;
@@ -263,10 +273,135 @@ section main .container .content_last #burger {
 section main .container .content_last #apple {
   position: absolute;
   top: -38px;
-  right: 145px;
+  right: 165px;
 }
 section main .container .content_last #cheese {
   position: absolute;
   top: 65px;
   right: -15px;
+}
+section main .container .content_last #orange {
+  position: absolute;
+  top: 15px;
+  left: 75px;
+}
+section main .container .content_last #fire {
+  position: absolute;
+  top: -42px;
+  left: 78px;
+}
+section main .cards_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+section main .cards_header span {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section main .cards_header span #back {
+  background-color: rgb(245, 246, 247);
+  border: none;
+  padding: 15px 12px;
+  border-radius: 10px;
+}
+section main .card_list {
+  float: left;
+  width: 650px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 100px 20px;
+  margin-top: 75px;
+  margin-bottom: 20px;
+}
+section main .card_list .card {
+  position: relative;
+  padding: 10px 15px;
+  position: relative;
+  border: 1px solid rgb(242, 238, 238);
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+}
+section main .card_list .card:hover {
+  background-color: rgb(242, 238, 238);
+}
+section main .card_list .card h3 {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+section main .card_list .card p {
+  font-size: 15px;
+  margin: 10px 0;
+  color: rgb(137, 134, 134);
+}
+section main .card_list .card h2 {
+  display: inline;
+}
+section main .card_list .card button {
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 1px 8px;
+  margin-left: 80px;
+  text-align: end;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+}
+section main .card_list .card button:hover {
+  background-color: rgb(242, 238, 238);
+  color: black;
+}
+section main .card_list .card #card_img1 {
+  position: absolute;
+  top: -85px;
+  right: -20px;
+}
+section main .card_list .card #card_img2 {
+  position: absolute;
+  top: -85px;
+  right: 10px;
+}
+section main .card_list .card #card_img3 {
+  position: absolute;
+  top: -100px;
+  right: -15px;
+}
+section main .articles {
+  margin-top: 20px;
+  margin-left: 75px;
+  float: left;
+  width: 230px;
+}
+section main .articles .articles_card {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: start;
+}
+section main .articles .articles_card p {
+  font-size: 15px;
+  font-weight: 600;
+}
+section main .articles .articles_card img {
+  border: none;
+  border-radius: 10px;
+  padding: 7px 9px;
+  background-color: red;
+  margin-right: 10px;
+}
+section main .articles .articles_card #color1 {
+  background-color: rgb(255, 240, 165);
+}
+section main .articles .articles_card #color2 {
+  background-color: rgb(214, 245, 255);
+}
+section main .articles .articles_card #color3 {
+  background-color: rgb(255, 145, 145);
+}
+section main .articles .articles_card #color4 {
+  background-color: rgb(193, 255, 244);
 }/*# sourceMappingURL=style.css.map */
