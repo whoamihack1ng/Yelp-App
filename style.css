@@ -26,13 +26,13 @@ body {
 header {
   margin-right: auto;
   margin-left: auto;
-  margin-top: 30px;
+  margin-top: 4.5662100457vh;
   width: 95vw;
   height: 90vh;
-  padding: 30px;
-  background-color: rgb(201, 232, 241);
+  padding: 4.5662100457vh 2.196193265vw;
+  background-color: rgb(199, 233, 244);
   border: none;
-  border-radius: 30px;
+  border-radius: 2.196193265vw;
   font-family: "League Spartan", sans-serif;
 }
 
@@ -42,37 +42,37 @@ header {
   align-items: center;
 }
 header .menu {
-  padding: 20px 0;
+  padding: 3.0441400304vh 0;
   width: 15vw;
   height: 100%;
   text-align: center;
 }
 header .menu .card {
-  margin: 10px auto;
-  width: 50px;
-  height: 50px;
+  margin: 1.5220700152vh auto;
+  width: 3.6603221083vw;
+  height: 7.6103500761vh;
 }
 header .menu .card img {
   width: 100%;
   height: 100%;
 }
 header .menu ul {
-  padding: 20px 0;
+  padding: 3.0441400304vh 0;
 }
 header .menu ul li {
-  margin: 10px 0;
+  margin: 1.5220700152vh 0;
   background-color: transparent;
   border: none;
-  border-radius: 10px;
+  border-radius: 0.7320644217vw;
   display: flex;
   align-items: center;
 }
 header .menu ul li img {
-  margin-right: 35px;
+  margin-right: 2.5622254758vw;
   background-color: white;
   border: none;
-  border-radius: 8px;
-  padding: 6px 7px;
+  border-radius: 0.5856515373vw;
+  padding: 0.9132420091vh 0.5124450952vw;
 }
 header .menu ul li a {
   color: rgb(144, 144, 144);
@@ -89,20 +89,20 @@ header .menu ul li:hover img {
 header .menu .faster {
   z-index: 3;
   text-align: start;
-  margin-top: 75px;
-  padding: 5px 25px;
-  padding-top: 10px;
+  margin-top: 11.4155251142vh;
+  padding: 0.7610350076vh 1.8301610542vw;
+  padding-top: 1.5220700152vh;
   background-color: white;
   border: none;
-  border-radius: 15px;
+  border-radius: 2.2831050228vh;
   position: relative;
 }
 header .menu .faster .faster_img {
-  width: 150px;
-  height: 150px;
+  width: 10.980966325vw;
+  height: 22.8310502283vh;
   position: absolute;
-  top: -80px;
-  right: 20px;
+  top: -12.1765601218vh;
+  right: 1.4641288433vw;
 }
 header .menu .faster .faster_img img {
   z-index: 2;
@@ -194,8 +194,20 @@ section .container {
   align-items: center;
 }
 section .container .logo {
+  position: relative;
+  width: 200px;
   font-weight: 600;
   font-size: 23px;
+}
+section .container .logo img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 35px;
+  left: 155px;
+}
+section .container .logo h1 {
+  display: inline;
 }
 section .container .img {
   margin-bottom: 40px;

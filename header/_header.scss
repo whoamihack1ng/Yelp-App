@@ -7,34 +7,34 @@
 header{
     @include flex();
     .menu{
-        padding: 20px 0;
+        padding: 3.0441400304414vh 0;
         width: 15vw;
         height: 100%;
         text-align: center;
         .card{
-            margin: 10px auto;
-            width: 50px;
-            height: 50px;
+            margin: 1.5220700152207vh auto;
+            width: 3.6603221083455346vw;
+            height: 7.610350076103501vh;
             img{
                 width: 100%;
                 height: 100%;
             }
         }
         ul{
-            padding: 20px 0;
+            padding: 3.0441400304414vh 0;
             li{
-                margin: 10px 0;
+                margin: 1.5220700152207vh 0;
                 background-color: transparent;
                 border: none;
-                border-radius: 10px;
+                border-radius: 0.7320644216691069vw;
                 display: flex;
                 align-items: center;
                 img{
-                    margin-right: 35px;
+                    margin-right: 2.562225475841874vw;
                     background-color: white;
                     border: none;
-                    border-radius: 8px;
-                    padding: 6px 7px;
+                    border-radius: 0.5856515373352855vw;
+                    padding: 0.91324200913242vh 0.5124450951683748vw;
                 }
                 a{
                     color: rgba(144, 144, 144, 1);
@@ -53,19 +53,19 @@ header{
         .faster{
             z-index: 3;
             text-align: start;
-            margin-top: 75px;
-            padding: 5px 25px;
-            padding-top: 10px;
+            margin-top: 11.415525114155251vh;
+            padding: 0.76103500761035vh 1.8301610541727673vw;
+            padding-top: 1.5220700152207vh;
             background-color: white;
             border: none;
-            border-radius: 15px;
+            border-radius: 2.2831050228310503vh;
             position: relative;
             .faster_img{
-                width: 150px;
-                height: 150px;
+                width: 10.980966325036603vw;
+                height: 22.831050228310502vh;
                 position: absolute;
-                top: -80px;
-                right: 20px;
+                top: -12.1765601217656vh;
+                right: 1.4641288433382138vw;
                 img{
                     z-index: 2;
                     width: 100%;
@@ -154,8 +154,20 @@ section{
         position: relative;
         @include flex();
         .logo{
+            position: relative;
+            width: 200px;
             font-weight: 600;
             font-size: 23px;
+            img{
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                top: 35px;
+                left: 155px;
+            }
+            h1{
+                display: inline;
+            }
         }
         .img{
             margin-bottom: 40px;
