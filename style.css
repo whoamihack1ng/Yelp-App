@@ -41,7 +41,7 @@ header {
   align-items: center;
 }
 header .menu {
-  padding: 20px;
+  padding: 20px 0;
   width: 15vw;
   height: 100%;
   text-align: center;
@@ -88,8 +88,9 @@ header .menu ul li:hover img {
 header .menu .faster {
   z-index: 3;
   text-align: start;
-  margin-top: 80px;
+  margin-top: 75px;
   padding: 5px 25px;
+  padding-top: 10px;
   background-color: white;
   border: none;
   border-radius: 15px;
@@ -100,7 +101,7 @@ header .menu .faster .faster_img {
   height: 150px;
   position: absolute;
   top: -80px;
-  right: 0px;
+  right: 20px;
 }
 header .menu .faster .faster_img img {
   z-index: 2;
@@ -108,6 +109,7 @@ header .menu .faster .faster_img img {
   height: 100%;
 }
 header .menu .faster h3 {
+  font-size: 20px;
   font-weight: bold;
   margin-top: 50px;
 }
@@ -119,7 +121,7 @@ header .menu .faster button {
 header .menu .faster .shadow {
   position: absolute;
   top: -28px;
-  right: 40px;
+  right: 60px;
   width: 42px;
   height: 42px;
   border: none;
@@ -129,7 +131,7 @@ header .menu .faster .shadow {
 header .menu .faster .violet {
   position: absolute;
   top: -70px;
-  right: 60px;
+  right: 78px;
   width: 50px;
   height: 50px;
   background-color: rgb(176, 128, 255);
@@ -140,8 +142,8 @@ header .menu .faster .white {
   height: 27px;
   background-color: white;
   position: absolute;
-  top: -52px;
-  left: 32px;
+  top: -50px;
+  left: 45px;
 }
 header .menu .faster .red {
   width: 12px;
@@ -165,14 +167,106 @@ header .menu .faster .easy {
   width: 4px;
   height: 4px;
   position: absolute;
-  top: -53px;
-  left: 60px;
+  top: -5px;
+  left: 71px;
 }
 
-.container {
+section {
+  padding: 20px 30px;
   border: none;
   border-radius: 20px;
   width: 80vw;
   height: 100%;
   background-color: white;
+  margin-left: 30px;
+}
+section .container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .container .logo {
+  font-weight: 600;
+  font-size: 23px;
+}
+section .container .img {
+  margin-bottom: 40px;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: red;
+}
+section .container .search {
+  background-color: rgb(243, 243, 243);
+}
+section .container .shop {
+  background-color: rgb(102, 102, 102);
+}
+section .container .shop_shadow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(255, 84, 84);
+}
+section main .container {
+  margin-top: 35px;
+  border: 1px solid black;
+}
+section main .container .content {
+  text-align: center;
+  width: 90px;
+  height: 140px;
+  padding: 5px;
+  border: none;
+  border-radius: 40px;
+  color: rgb(88, 88, 88);
+  background-color: rgb(243, 243, 243);
+}
+section main .container .content:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.1);
+}
+section main .container .content img {
+  margin-bottom: 5px;
+  width: 100%;
+  height: 60%;
+}
+section main .container .content_last {
+  position: relative;
+  text-align: start;
+  border: none;
+  border-radius: 25px;
+  height: 140px;
+  padding: 10px 20px;
+  padding-right: 70px;
+  background-color: rgb(171, 151, 243);
+  color: rgb(255, 255, 255);
+}
+section main .container .content_last h2 {
+  font-size: 20px;
+  margin-top: 70px;
+}
+section main .container .content_last p {
+  font-size: 14px;
+}
+section main .container .content_last #burger {
+  position: absolute;
+  top: -150px;
+  right: -108px;
+}
+section main .container .content_last #apple {
+  position: absolute;
+  top: -38px;
+  right: 145px;
+}
+section main .container .content_last #cheese {
+  position: absolute;
+  top: 65px;
+  right: -15px;
 }/*# sourceMappingURL=style.css.map */
